@@ -4,6 +4,9 @@ useHead({
 })
 definePageMeta({
   layout: 'orange',
+  layoutTransition: {
+    name: 'slide-in'
+  },
   pageTransition: {
     name: 'rotate'
   }
