@@ -2,6 +2,11 @@
 useHead({
 	title: 'About Page Title'
 })
+definePageMeta({
+  pageTransition: {
+    name: 'rotate'
+  }
+})
 </script>
 
 <template>
