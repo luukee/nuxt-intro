@@ -17,4 +17,16 @@ const appConfig = useAppConfig()
 const newAppConfig = { foo: "baz" }
 updateAppConfig(newAppConfig)
 // console.log(appConfig);
+
+// useHead
+useHead({
+  title: 'My Nuxt Intro App',
+  meta: [
+    { name: 'description', content: 'My amazing Nuxt Intro site.' }
+  ],
+  bodyAttrs: {
+    class: 'test'
+  },
+  script: [ { innerHTML: 'console.log(\'Hello world\')' } ]
+})
 </script>
