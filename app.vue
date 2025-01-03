@@ -22,9 +22,12 @@ updateAppConfig(newAppConfig)
 
 // useHead
 useHead({
-  // as a string,
-  // where `%s` is replaced with the title
-  titleTemplate: '%s - Dynamic Site Title',
+  // or as a function
+  titleTemplate: (productCategory) => {
+    return productCategory
+      ? `${productCategory} - Site Title as a function`
+      : 'Site Title'
+  },
   meta: [
     { 
       name: 'description', 
