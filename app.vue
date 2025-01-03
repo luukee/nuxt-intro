@@ -9,7 +9,7 @@
 <script setup lang="ts">
 // import { NuxtPage } from '#build/components'
 const title = ref('Hello World')
-const description = ref('My amazing reactive description.')
+const description = ref('My amazing reactive useSeoMeta description.')
 
 const config = useRuntimeConfig()
 // console.log(config.mySecret);
@@ -35,13 +35,13 @@ useHead({
   script: [ { innerHTML: 'console.log(\'Hello world\')' } ]
 })
 
-// useSeoMeta({
-//   title: 'My Amazing useSeoMeta title',
-//   ogTitle: 'My Amazing useSeoMeta ogTitle',
-//   description: 'This is my amazing useSeoMeta description.',
-//   ogDescription: 'This is my amazing useSeoMeta ogDescription.',
-//   ogImage: 'https://example.com/image.png',
-//   twitterCard: 'summary_large_image',
-// })
+useSeoMeta({
+  title: 'My Amazing useSeoMeta title',
+  ogTitle: 'My Amazing useSeoMeta ogTitle',
+  description,
+  ogDescription: 'This is my amazing useSeoMeta ogDescription.',
+  ogImage: 'https://example.com/image.png',
+  twitterCard: 'summary_large_image',
+})
 
 </script>
