@@ -1,6 +1,5 @@
 <!-- By default, Nuxt will treat this file as the entrypoint and render its content for every route of the application. -->
 <template>
-  <h1>/app.vue</h1>
   <NuxtLayout>
     <NuxtPage />
   </NuxtLayout>
