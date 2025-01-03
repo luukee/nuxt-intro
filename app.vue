@@ -1,6 +1,14 @@
 <!-- By default, Nuxt will treat this file as the entrypoint and render its content for every route of the application. -->
 <template>
   <h1>/app.vue</h1>
+  <Head>
+      <Title>{{ title }}</Title>
+      <Meta name="description" :content="title" />
+      <Style type="text/css" children="body { background-color: green; }" ></Style>
+    </Head>
+
+    <h1>{{ title }}</h1>
+    
   <NuxtLayout>
     <NuxtPage />
   </NuxtLayout>
@@ -8,6 +16,7 @@
 
 <script setup lang="ts">
 // import { NuxtPage } from '#build/components'
+const title = ref('Hello World')
 
 const config = useRuntimeConfig()
 // console.log(config.mySecret);
