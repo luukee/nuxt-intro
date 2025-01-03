@@ -6,6 +6,8 @@
 
 <script setup lang="ts">
 const config = useRuntimeConfig()
-console.log(config.mySecret);
-console.log(config.nuxtApiKeyTest);
+// console.log(config.mySecret);
+// console.log(config.nuxtApiKeyTest);
+const appConfig = useAppConfig()
+console.log(appConfig.theme);
 </script>
