@@ -23,5 +23,12 @@ export default defineNuxtConfig({
       }
     }
   },
+  $meta: {
+    name: 'Nuxt Intro METAINFO',
+    description: 'Nuxt.js introduction',
+  },
+  runtimeConfig: {
+    mySecret: 'secret is mine',
+  },
   compatibilityDate: '2025-01-03',
 })
