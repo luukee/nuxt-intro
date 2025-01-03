@@ -22,9 +22,9 @@ updateAppConfig(newAppConfig)
 
 // useHead
 useHead({
-  titleTemplate: (titleChunk) => {
-    return titleChunk ? `${titleChunk} - Site Title` : 'Site Title';
-  },
+  // as a string,
+  // where `%s` is replaced with the title
+  titleTemplate: '%s - Dynamic Site Title',
   meta: [
     { 
       name: 'description', 
