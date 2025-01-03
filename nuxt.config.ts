@@ -6,7 +6,8 @@ export default defineNuxtConfig({
       viewport: 'width=device-width, initial-scale=1',
       title: 'Nuxt Intro',
       titleTemplate: '%s - Nuxt Intro',
-    }
+    },
+    pageTransition: { name: 'page', mode: 'out-in' }
   },
   $development: {
     app: {
