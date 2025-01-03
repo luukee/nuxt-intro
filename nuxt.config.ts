@@ -29,6 +29,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     mySecret: 'secret is mine',
+    nuxtApiKeyTest: process.env.NUXT_API_KEY_TEST, // .env: NUXT_API_KEY_TEST=123456
   },
   compatibilityDate: '2025-01-03',
 })
