@@ -22,7 +22,9 @@ updateAppConfig(newAppConfig)
 
 // useHead
 useHead({
-  title: 'My Nuxt Intro App',
+  titleTemplate: (titleChunk) => {
+    return titleChunk ? `${titleChunk} - Site Title` : 'Site Title';
+  },
   meta: [
     { 
       name: 'description', 
@@ -36,7 +38,7 @@ useHead({
 })
 
 useSeoMeta({
-  title: 'My Amazing useSeoMeta title',
+  // title: 'My Amazing useSeoMeta title',
   ogTitle: 'My Amazing useSeoMeta ogTitle',
   description,
   ogDescription: 'This is my amazing useSeoMeta ogDescription.',
