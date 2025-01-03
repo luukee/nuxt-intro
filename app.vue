@@ -29,4 +29,14 @@ useHead({
   },
   script: [ { innerHTML: 'console.log(\'Hello world\')' } ]
 })
+
+useSeoMeta({
+  title: 'My Amazing useSeoMeta title',
+  ogTitle: 'My Amazing useSeoMeta ogTitle',
+  description: 'This is my amazing useSeoMeta description.',
+  ogDescription: 'This is my amazing useSeoMeta ogDescription.',
+  ogImage: 'https://example.com/image.png',
+  twitterCard: 'summary_large_image',
+})
+
 </script>
