@@ -10,4 +10,7 @@ const config = useRuntimeConfig()
 // console.log(config.nuxtApiKeyTest);
 const appConfig = useAppConfig()
 console.log(appConfig.theme);
+const newAppConfig = { foo: 'baz'}
+updateAppConfig(newAppConfig)
+console.log(appConfig);
 </script>
