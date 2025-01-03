@@ -3,6 +3,7 @@ useHead({
 	title: 'About Page Title'
 })
 definePageMeta({
+  layout: 'orange',
   pageTransition: {
     name: 'rotate'
   }

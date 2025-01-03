@@ -7,7 +7,8 @@ export default defineNuxtConfig({
       title: 'Nuxt Intro',
       titleTemplate: '%s - Nuxt Intro',
     },
-    pageTransition: { name: 'page', mode: 'out-in' }
+    pageTransition: { name: 'page', mode: 'out-in' },
+    layoutTransition: { name: 'layout', mode: 'out-in' }
   },
   $development: {
     app: {
