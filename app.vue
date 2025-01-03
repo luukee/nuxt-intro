@@ -6,19 +6,15 @@
 </template>
 
 <script setup lang="ts">
-// import { NuxtPage } from '#build/components'
-const title = ref('Hello World')
-const description = ref('My amazing reactive useSeoMeta description.')
 
-const config = useRuntimeConfig()
-// console.log(config.mySecret);
-// console.log(config.nuxtApiKeyTest);
-const appConfig = useAppConfig()
-// console.log(appConfig.theme);
+// Data fetching: https://nuxt.com/docs/getting-started/data-fetching
+
+
+// Data fetching END
+
+const description = ref('My amazing reactive useSeoMeta description.')
 const newAppConfig = { foo: "baz" }
 updateAppConfig(newAppConfig)
-// console.log(appConfig);
-
 // useHead
 useHead({
   // as a string,
@@ -57,7 +53,9 @@ useSeoMeta({
   ogImage: 'https://example.com/image.png',
   twitterCard: 'summary_large_image',
 })
-
+// TODO: Transitions - JavaScript Hooks: https://nuxt.com/docs/getting-started/transitions#javascript-hooks
+// TODO: Transitions - Dynamic Transitions: https://nuxt.com/docs/getting-started/transitions#dynamic-transitions
+// TODO: Transitions - Transition with NuxtPage: https://nuxt.com/docs/getting-started/transitions#transition-with-nuxtpage
 </script>
 <!-- Transition styles -->
 <style>
