@@ -8,9 +8,11 @@ import them.
 <script setup lang="ts">
 const description = ref('My amazing component meta description.')
 </script>
+
 <template>
-    <div>
-    <Meta name="description" :content="description" />
+  <div>
+    <Link rel="preconnect" href="https://fonts.googleapis.com" />
+    <Link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600&display=swap" crossorigin="" />
   </div>
   <span>
     <slot />
