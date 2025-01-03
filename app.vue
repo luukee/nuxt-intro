@@ -34,7 +34,14 @@ useHead({
   bodyAttrs: {
     class: 'test'
   },
-  script: [ { innerHTML: 'console.log(\'Hello world\')' } ]
+  script: [ 
+    { innerHTML: 'console.log(\'Hello world\')' },
+    {
+      src: 'https://third-party-script.com',
+      // valid options are: 'head' | 'bodyClose' | 'bodyOpen'
+      tagPosition: 'bodyClose'
+    }
+  ]
 })
 
 useSeoMeta({
