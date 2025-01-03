@@ -15,5 +15,8 @@
     <NuxtLink to="/dashboard">
       <p>Dashboard</p>
     </NuxtLink>
+    <NuxtLink to="/contact">
+      <p>Contact</p>
+    </NuxtLink>
   </div>
 </template>
