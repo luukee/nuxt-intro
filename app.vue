@@ -1,10 +1,14 @@
 <!-- By default, Nuxt will treat this file as the entrypoint and render its content for every route of the application. -->
 <template>
-  <h1>Check the tab</h1>
-  <AppAlert> This is an auto-imported component. </AppAlert>
+  <h1>/app.vue</h1>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
 
 <script setup lang="ts">
+// import { NuxtPage } from '#build/components'
+
 const config = useRuntimeConfig()
 // console.log(config.mySecret);
 // console.log(config.nuxtApiKeyTest);
