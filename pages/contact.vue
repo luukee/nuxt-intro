@@ -6,6 +6,7 @@ definePageMeta({
 
 <template>
   <section>
+    <h1>Welcome to the Contact Page</h1>
     <p>This page will be displayed at the /contact route.</p>
 		<NuxtLink to="/">Home</NuxtLink>
   </section>
