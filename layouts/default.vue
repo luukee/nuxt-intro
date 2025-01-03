@@ -8,9 +8,8 @@ useHead({
 
 <template>
   <div>
-    <AppHeader />
+    <pre>default layout</pre>
     <slot />
-    <AppFooter />
   </div>
 </template>
 
