@@ -4,6 +4,8 @@ useHead({
 })
 definePageMeta({
   layout: 'orange',
+  pageTransition: false,
+  layoutTransition: false
 })
 </script>
 
