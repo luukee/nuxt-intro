@@ -11,5 +11,9 @@
     <NuxtLink to="/the-important-report.pdf" external>
       <p>Download Report</p>
     </NuxtLink>
+    <!-- Middleware -->
+    <NuxtLink to="/dashboard">
+      <p>Dashboard</p>
+    </NuxtLink>
   </div>
 </template>
