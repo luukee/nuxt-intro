@@ -8,6 +8,7 @@
 <script setup lang="ts">
 
 // Data fetching: https://nuxt.com/docs/getting-started/data-fetching
+// Data fetching video: https://www.youtube.com/watch?v=njsGVmcWviY
 
 // What is a "Composable"?​ video: https://www.youtube.com/watch?v=N0QrFKBZuqA
 // In the context of Vue applications, a "composable" is a function that leverages 
