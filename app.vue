@@ -8,7 +8,11 @@
 <script setup lang="ts">
 
 // Data fetching: https://nuxt.com/docs/getting-started/data-fetching
-
+// Composable checklist:
+// 1) Does it use other composables?
+// 2) Does it use any lifecycle hooks?
+// 3) Does it use statefull logic?
+// ** if any above are YES, it is a composable.
 
 // Data fetching END
 
