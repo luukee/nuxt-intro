@@ -8,6 +8,11 @@
 <script setup lang="ts">
 
 // Data fetching: https://nuxt.com/docs/getting-started/data-fetching
+
+// What is a "Composable"?​ video: https://www.youtube.com/watch?v=N0QrFKBZuqA
+// In the context of Vue applications, a "composable" is a function that leverages 
+// Vue's Composition API to encapsulate and reuse stateful logic.
+
 // Composable checklist:
 // 1) Does it use other composables?
 // 2) Does it use any lifecycle hooks?
